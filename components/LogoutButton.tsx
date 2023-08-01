@@ -2,6 +2,7 @@
 import React from "react";
 import { Button } from "@/ui/button";
 import { signOut } from "next-auth/react";
+import { toast } from "@/ui/use-toast";
 
 type Props = {};
 
@@ -11,8 +12,13 @@ export default function LogoutButton({}: Props) {
       await signOut({
         callbackUrl: "/login",
       });
-    } catch (error) {
+    } catch (error: any) {
       console.error(error);
+      toast({
+        title: "Something went wrong while logging out.",
+        description: error.message,
+        variant: "destructive",
+      });
     }
   };
 
