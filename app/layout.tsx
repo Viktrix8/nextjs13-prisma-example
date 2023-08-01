@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Lekton, Poppins } from "next/font/google";
 import ThemeProvider from "@/ui/theme-provider";
 import Navbar from "@/components/Navbar";
+import { Toaster } from "@/ui/toaster";
 import "./globals.css";
 
 export const inter = Inter({ subsets: ["latin"] });
@@ -24,6 +25,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar />
           {children}
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>
