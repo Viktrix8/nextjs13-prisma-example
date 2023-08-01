@@ -1,20 +1,20 @@
-# Next.js 13 & Prisma Starter
+# Next.js 13 & Prisma Example
 
 ![Next.js](https://img.shields.io/badge/Next.js-13.0.0-blue?logo=next.js)
 ![Prisma](https://img.shields.io/badge/Prisma-2.30.3-blue?logo=prisma)
 
-This is a starter template for building web applications using Next.js 13 and Prisma 2. It provides a solid foundation for developing modern, server-rendered React applications with an efficient database management system. The combination of Next.js and Prisma allows you to quickly create performant, scalable, and maintainable web applications.
+This is an example template for building web applications using Next.js 13 and Prisma 2. It provides a solid foundation for developing modern, server-rendered React applications with an efficient database management system. The combination of Next.js and Prisma allows you to quickly create performant, scalable, and maintainable web applications.
 
 ## Features
 
 - **Next.js 13**: Latest version of the popular React framework for server-rendered applications.
 - **Prisma 2**: An ORM (Object-Relational Mapping) that simplifies database access and management.
-- **PostgreSQL**: This starter uses PostgreSQL as the database system, but it can be easily replaced with other databases supported by Prisma.
+- **PostgreSQL**: This example uses PostgreSQL as the database system, but it can be easily replaced with other databases supported by Prisma.
 - **Authentication**: Basic user authentication is set up using Next Auth authentication middleware, with support for user registration, login, and protected routes.
 - **Environment Variables**: Configurable environment variables using `.env` files for easy development and deployment setup.
 - **Eslint & Prettier**: Code linting and formatting configured to ensure consistent and clean code.
 - **Docker Compose**: Docker Compose file is included to run the PostgreSQL database and the app containerized.
-- **UI Libary**: This starter uses tailwindcss and shadcn/ui.
+- **UI Libary**: This example uses tailwindcss and shadcn/ui.
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ Follow these steps to set up the project locally:
 1. **Clone the repository**:
 
    ```
-   git clone https://github.com/Viktrix8/nextjs13-prisma-starter
+   git clone https://github.com/Viktrix8/nextjs13-prisma-example
    ```
 
 2. **Install dependencies**:
@@ -54,7 +54,7 @@ Follow these steps to set up the project locally:
 
 ## Folder Structure
 
-The folder structure of this starter is organized as follows:
+The folder structure of this example is organized as follows:
 
 - `/components`: Contains React components used throughout the application.
 - `/app`: Includes Next.js page components representing different routes of the application.
@@ -62,7 +62,7 @@ The folder structure of this starter is organized as follows:
 
 ## Environment Variables
 
-This starter uses environment variables to manage sensitive data and configuration. Rename the `.env.example` file to `.env` and replace the placeholder values with your actual settings.
+This example uses environment variables to manage sensitive data and configuration. Rename the `.env.example` file to `.env` and replace the placeholder values with your actual settings.
 
 ## Deploying to Production
 
@@ -70,12 +70,12 @@ To deploy the application to production, build the Next.js application and run i
 
 ## Contributing
 
-Contributions to this starter are welcome. Feel free to open issues for bug reports or feature requests, and submit pull requests with improvements.
+Contributions to this example are welcome. Feel free to open issues for bug reports or feature requests, and submit pull requests with improvements.
 
 ## License
 
-This starter is open-source and available under the [MIT License](LICENSE).
+This example is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-Thank you for using the Next.js 13 & Prisma Starter! We hope this template accelerates your web development journey and provides a robust foundation for your projects. If you have any questions or feedback, please don't hesitate to reach out. Happy coding!
+Thank you for using the Next.js 13 & Prisma example! We hope this template accelerates your web development journey and provides a robust foundation for your projects. If you have any questions or feedback, please don't hesitate to reach out. Happy coding!
